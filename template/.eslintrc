@@ -1,0 +1,23 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": [ "plugin:react/recommended", "prettier", "plugin:prettier/recommended" ],
+	"plugins": [ "react", "react-hooks" ],
+	"rules": {
+		"no-use-before-define": "off",
+		"react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "import/prefer-default-export": "off",
+        "react/prop-types": "off",
+		"no-shadow": "off",
+		"no-var": "warn",
+		"no-invalid-regexp": "error"
+	},
+	"parserOptions": {
+		"ecmaFeatures": { "jsx": true },
+		"ecmaVersion": "latest",
+		"sourceType": "script"
+	}
+}
