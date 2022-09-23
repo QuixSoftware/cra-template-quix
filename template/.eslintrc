@@ -18,6 +18,6 @@
 	"parserOptions": {
 		"ecmaFeatures": { "jsx": true },
 		"ecmaVersion": "latest",
-		"sourceType": "script"
+		"sourceType": "module"
 	}
 }
